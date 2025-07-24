@@ -104,4 +104,30 @@ Inside your PHP server root directory (e.g., `htdocs/agrosense-api/`), create th
 
 ---
 
+# AgroSense Frontend Setup Guide - Web App
+
+1. Tech Stack
+- React
+- Axios
+- Tailwind CSS / Daisy UI / Shadcn
+- Chart.js / Recharts / Plotly
+- Vite or Create React App - But Vite is simple though
+
+## Folder Structure
+/src
+├── components/         # UI components (e.g. SensorCard, Chart)
+├── pages/              # Page views (e.g. Dashboard, Login)
+├── services/           # Axios API logic
+├── App.jsx             # Routing and layout
+└── index.js            # Entry point
+
+## 6. Pages to Build
+
+- Dashboard: Display charts and live readings.
+- Login and Signup.
+- Profile : Show user account details.
+- Payment Wall Page
+
+
+
 
